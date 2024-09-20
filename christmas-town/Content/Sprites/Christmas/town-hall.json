@@ -1,0 +1,84 @@
+{
+	"images" :
+	[
+	
+{ "frame" : 0, "file" : "christmas/Hall/Mage1.bmp"}
+,
+{ "frame" : 1, "file" : "christmas/Hall/Mage2.bmp"}
+,
+{ "frame" : 2, "file" : "christmas/Hall/Mage3.bmp"}
+,
+{ "frame" : 3, "file" : "christmas/Hall/Mage4.bmp"}
+,
+{ "frame" : 4, "file" : "christmas/Hall/Mage5.bmp"}
+,
+{ "frame" : 5, "file" : "christmas/Hall/Tavern.bmp"}
+,
+{ "frame" : 7, "file" : "christmas/Hall/Fort.bmp"}
+,
+{ "frame" : 8, "file" : "christmas/Hall/Citadel.bmp"}
+,
+{ "frame" : 9, "file" : "christmas/Hall/Castle.bmp"}
+,
+{ "frame" : 10, "file" : "christmas/Hall/Village.bmp"}
+,
+{ "frame" : 11, "file" : "christmas/Hall/Town.bmp"}
+,
+{ "frame" : 12, "file" : "christmas/Hall/City.bmp"}
+,
+{ "frame" : 13, "file" : "christmas/Hall/Capitol.bmp"}
+,
+{ "frame" : 14, "file" : "christmas/Hall/Market.bmp"}
+,
+{ "frame" : 15, "file" : "christmas/Hall/Silo.bmp"}
+,
+{ "frame" : 16, "file" : "christmas/Hall/Blacksmith.bmp"}
+,
+{ "frame" : 17, "file" : "christmas/Hall/Spec.bmp"}
+,
+{ "frame" : 18, "file" : "christmas/Hall/Dwelling1.bmp"}
+,
+{ "frame" : 19, "file" : "christmas/Hall/Upgrade1.bmp"}
+,
+{ "frame" : 24, "file" : "christmas/Hall/Dwelling5.bmp"}
+,
+{ "frame" : 25, "file" : "christmas/Hall/Upgrade5.bmp"}
+,
+{ "frame" : 26, "file" : "christmas/Hall/Holy.bmp"}
+,
+{ "frame" : 30, "file" : "christmas/Hall/Dwelling1.bmp"}
+,
+{ "frame" : 31, "file" : "christmas/Hall/Dwelling2.bmp"}
+,
+{ "frame" : 32, "file" : "christmas/Hall/Dwelling3.bmp"}
+,
+{ "frame" : 33, "file" : "christmas/Hall/Dwelling4.bmp"}
+,
+{ "frame" : 34, "file" : "christmas/Hall/Dwelling5.bmp"}
+,
+{ "frame" : 35, "file" : "christmas/Hall/Dwelling6.bmp"}
+,
+{ "frame" : 36, "file" : "christmas/Hall/Dwelling7.bmp"}
+,
+{ "frame" : 37, "file" : "christmas/Hall/Upgrade1.bmp"}
+,
+{ "frame" : 38, "file" : "christmas/Hall/Upgrade2.bmp"}
+,
+{ "frame" : 39, "file" : "christmas/Hall/Upgrade3.bmp"}
+,
+{ "frame" : 40, "file" : "christmas/Hall/Upgrade4.bmp"}
+,
+{ "frame" : 41, "file" : "christmas/Hall/Upgrade5.bmp"}
+,
+{ "frame" : 42, "file" : "christmas/Hall/Upgrade6.bmp"}
+,
+{ "frame" : 43, "file" : "christmas/Hall/Upgrade7.bmp"}
+,
+	
+{ "frame" : 46, "file" : "christmas/Hall/Advanced3.bmp"}
+,
+{ "frame" : 50, "file" : "christmas/Hall/Upgrade7.bmp"}
+	]
+
+
+}

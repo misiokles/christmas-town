@@ -1,0 +1,76 @@
+{
+	"name" : "Christmas town",
+	"description" : "New town made by Pointer especially for Christmas. This mod is not really serious so don't expect perfection in every part of it ;)",
+
+	"author" : "Pointer & Macron (graphical edition) (0.94 version), Kammer (conversion to 0.99 & deleting errors) Acidchalk (1.0 graphical changes + more)",
+	"contact" : "http://www.forum.acidcave.net/profile.php?UID=2410",
+	"version" : "1.6.0",
+	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"1.6.0"   : [ "Update to vcmi-1.5 format" ]
+	},
+
+	"factions" :
+	[
+		"config/christmas/town/structures.json",
+		"config/christmas/town/faction.json",
+		"config/christmas/town/buildings.json",
+		"config/christmas/town/puzzle.json",
+		"config/christmas/town/spells.json",
+		"config/christmas/town/siege.json"
+	],
+
+	"creatures" :
+	[
+		"config/christmas/creatures/fairy.json",
+		"config/christmas/creatures/christmasfairy.json",
+		"config/christmas/creatures/truesantagremlin.json",
+		"config/christmas/creatures/christmasgremlin.json",
+		"config/christmas/creatures/donkey.json",
+		"config/christmas/creatures/blackdonkey.json",
+		"config/christmas/creatures/whitedonkey.json",
+		"config/christmas/creatures/christmaslight.json",
+		"config/christmas/creatures/christmasstar.json",
+		"config/christmas/creatures/reindeer.json",
+		"config/christmas/creatures/santareindeer.json",
+		"config/christmas/creatures/christmastreant.json",
+		"config/christmas/creatures/santaacolyte.json",
+		"config/christmas/creatures/santaclaus.json",
+		"config/christmas/creatures/mastersanta.json"
+	],
+
+	"heroClasses" :
+	[
+		"config/christmas/classes/christmasspirit.json",
+		"config/christmas/classes/wiseman.json",
+		"config/christmas/classes/deer.json",
+		"config/christmas/classes/yulecat.json",		
+		"config/christmas/classes/snowman.json"	
+	],
+
+	"heroes" :
+	[
+		"config/christmas/heroes/dedmoroz.json",
+		"config/christmas/heroes/befana.json",
+		"config/christmas/heroes/jultomten.json",
+		"config/christmas/heroes/frauberta.json",
+		"config/christmas/heroes/melchior.json",
+		"config/christmas/heroes/caspar.json",
+		"config/christmas/heroes/balthasar.json",
+		"config/christmas/heroes/julemanden.json",
+		"config/christmas/heroes/ebenezer.json",
+		"config/christmas/heroes/snowman.json",
+		"config/christmas/heroes/rudolph.json",
+		"config/christmas/heroes/dominick.json",
+		"config/christmas/heroes/yulecat.json",
+		"config/christmas/heroes/olentzero.json",
+		"config/christmas/heroes/grinch.json",
+		"config/christmas/heroes/snegurochka.json"
+	],
+	"objects" : [ "config/christmas/dwellings" ]
+}
