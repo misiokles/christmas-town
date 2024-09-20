@@ -1,0 +1,493 @@
+{
+	"christmas" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"id" : 4,
+					"upgrades" : "mageGuild4"
+				},
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "Resource Silo provides 1 Gem per day.",
+					"name" : "Resource Silo",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "Blacksmith produces First Aid Tents.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				"hordeSnowfairies" :
+				{
+					"description" : "Christmas Wreath increases the population of Fairies and Christmas Fairies by 10.",
+					"name" : "Christmas Wreath",
+					"cost" :
+					{
+						"gold" : 1000
+					},
+					"id" : 18,
+					"upgrades" : "dwelling1"
+				},
+				"hordeSnowfairiesUpgr" :
+				{
+					"description" : "Christmas Wreath increases the population of Fairies and Christmas Fairies by 10.",
+					"name" : "Christmas Wreath",
+					"cost" :
+					{
+						"gold" : 1000
+					},
+					"id" : 19,
+					"upgrades" : "dwellingUpgrade1",
+					"requires" : [ "allOf", ["hordeSnowfairies"], ["dwellingUpgrade1"] ],
+					"mode" : "auto"
+				},
+				"christmasdecoration" :
+				{
+					"description" : "Christmas Decoration makes your town looking more beautiful :)",
+					"name" : "Christmas Decoration",
+					"cost" :
+					{
+						"gold" : 1000,
+					},
+					"requires" : [ "mageGuild2" ],
+					"id" : 17
+				},
+				"hordeReindeers" :
+				{
+					"description" : "Long Team increases the population of Reindeers and Santa Reindeers by 2.",
+					"name" : "Long Team",
+					"cost" :
+					{
+						"gold" : 3000,
+						"wood" : 7,
+						"gems" : 2
+					},
+					"id" : 24,
+					"upgrades" : "dwelling5"
+				},
+				"hordeReindeersUpgr" :
+				{
+					"description" : "Long Team increases the population of Reindeers and Santa Reindeers by 2.",
+					"name" : "Long Team",
+					"cost" :
+					{
+						"gold" : 3000,
+						"wood" : 7,
+						"gems" : 2
+					},
+					"id" : 25,
+					"upgrades" : "dwellingUpgrade5",
+					"requires" : [ "hordeReindeers" ],
+					"mode" : "auto"
+				},
+				"grail" :
+				{
+					"description" : "The Christmas Neon Sign increases weekly creature generation by 50 percent, adds 5000 gold per day, and wishes You a Merry Christmas!",
+					"name" : "Christmas Neon Sign",
+					"id" : 26,
+					"mode" : "grail"
+				},
+				"dwelling1" :
+				{
+					"description" : "Christmas Lantern allows to recruit Fairies.",
+					"name" : "Christmas Lantern",
+					"cost" : {
+						"gold" : 300,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwelling2" :
+				{
+					"description" : "Snowman allows to recruit True Santa Gremlins.",
+					"name" : "Snowman",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [ "dwelling1" ],
+					"id" : 31
+				},
+				"dwelling3" :
+				{
+					"description" : "Shed allows to recruit Donkeys.",
+					"name" : "Shed",
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 5
+					},
+					"requires" : [ "dwelling2" ],
+					"id" : 32
+				},
+				"dwelling4" :
+				{
+					"description" : "Star of Bethlehem allows to recruit Christmas Lights.",
+					"name" : "Star of Bethlehem",
+					"cost" : {
+						"gems" : 10,
+						"gold" : 2500,
+						"ore" : 10
+					},
+					"requires" : [  "dwelling2" ],
+					"id" : 33
+				},
+				"dwelling5" :
+				{
+					"description" : "Reindeer Team allows to recruit Reindeers.",
+					"name" : "Reindeer Team",
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 15
+					},
+					"requires" : [ "dwelling3" ],
+					"id" : 34
+				},
+				"dwelling6" :
+				{
+					"description" : "Christmas Tree allows to recruit Christmas Treants.",
+					"name" : "Christmas Tree",
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5,
+						"ore" : 5,
+						"crystal" : 3,
+						"sulfur" : 3,
+						"gems" : 5,
+						"mercury" : 3
+					},
+					"requires" : [ "dwelling4" ],
+					"id" : 35
+				},
+				"dwelling7" :
+				{
+					"description" : "Santa's Sleigh allows to recruit Santa Acolytes.",
+					"name" : "Santa's Sleigh",
+					"cost" : {
+						"gold" : 12000,
+						"wood" : 10,
+						"gems" : 10,
+						"mercury" : 10
+					},
+					"requires" : [ "allOf", ["dwelling5"], ["dwelling6"] ],
+					"id" : 36
+				},
+				"dwellingUpgrade1" :
+				{
+					"description" : "Upg. Christmas Lantern allows to recruit Christmas Fairies.",
+					"name" : "Upg. Christmas Lantern",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"id" : 37,
+					"upgrades" : "dwelling1"
+				},
+				"dwellingUpgrade2" :
+				{
+					"description" : "Snowmen allow to recruit Christmas Gremlins.",
+					"name" : "Snowmen",
+					"cost" : {
+						"gold" : 1200,
+						"ore" : 5
+					},
+					"id" : 38,
+					"upgrades" : "dwelling2"
+				},
+				"dwellingUpgrade3" :
+				{
+					"description" : "Upg. Shed allows to recruit Black Donkeys.",
+					"name" : "Upg. Shed",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"crystal" : 3
+					},
+					"id" : 39,
+					"upgrades" : "dwelling3"
+				},
+				"dwellingUpgrade4" :
+				{
+					"description" : "Upg. Star of Bethlehem allows to recruit Christmas Stars.",
+					"name" : "Upg. Star of Bethlehem",
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 2500,
+						"ore" : 10
+					},
+					"id" : 40,
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwelling4"
+				},
+				"dwellingUpgrade5" :
+				{
+					"description" : "Upg. Reindeer Team allows to recruit Santa Reindeers.",
+					"name" : "Upg. Reindeer Team",
+					"cost" : {
+						"wood" : 5,
+						"gold" : 2000,
+						"sulfur" : 5
+					},
+					"id" : 41,
+					"requires" : [ "citadel" ],
+					"upgrades" : "dwelling5"
+				},
+
+				//"dwellingUpgrade6" :
+				//{	
+				//	"description" : "Christmas Tree allows to recruit Christmas Treants.",
+				//	"name" : "Christmas Tree",
+				//	"cost" : {
+				//		"gold" : 4000,
+				//		"wood" : 5,
+				//		"ore" : 5,
+				//		"crystal" : 3,
+				//		"sulfur" : 3,
+				//		"gems" : 5,
+				//		"mercury" : 3
+				//	},
+				//	"requires" : [  "dwellingUpgrade6" ],
+					//"upgrades":"dwelling6",
+				//	"id" : 42				
+				//	},
+
+
+				"dwellingUpgrade7" :
+				{
+					"description" : "Upg. Santa's Sleigh allows to recruit Santa Clauses.",
+					"name" : "Upg. Santa's Sleigh",
+					"cost" : {
+						"gems" : 15,
+						"gold" : 20000,
+						"wood" : 15,
+						"mercury" : 10
+					},
+					"id" : 43,
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwelling7"
+				},
+				"donkeys2ndUpgr" :
+				{
+					"description" : "Christmas Shed allows to recruit White Donkeys.",
+					"name" : "Christmas Shed",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"crystal" : 3
+					},
+					"id" : 46,
+					"upgrades" : "dwellingUpgrade3"
+				},
+				"santas2ndUpgr" :
+				{
+					"description" : "Santa's Team allows to recruit Master Santas.",
+					"name" : "Santa's Team",
+					"cost" : {
+						"gems" : 15,
+						"gold" : 20000,
+						"wood" : 15,
+						"mercury" : 10
+					},
+					"id" : 50,
+					"requires" : [ "mageGuild3" ],
+					"upgrades" : "dwellingUpgrade7"
+				}
+			}
+		}
+	}
+}

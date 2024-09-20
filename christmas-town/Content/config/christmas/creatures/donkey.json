@@ -1,0 +1,72 @@
+{
+	"donkey":
+	{
+		"name" :
+		{
+			"plural" : "Donkeys",
+			"singular" : "Donkey"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "christmas",
+		"upgrades":
+		[
+			"blackdonkey"
+		],
+		"aiValue" : 130,
+		"fightValue" : 130,
+		"attack" : 6,
+		"defense" : 6,
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 4 
+		},
+		"hitPoints" : 25,
+		"speed" : 6,
+		"level" : 3,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"growth" : 8,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/donkey.def",
+			"map" : "christmas/map/adonkey.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSdonkey.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLdonkey.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+        },
+		"sound" :
+		{
+			"attack" : "christmas/unicATTK.wav",
+			"defend" : "christmas/unicDFND.wav",
+			"killed" : "christmas/unicKILL.wav",
+			"move" : "christmas/unicMOVE.wav",
+			"wince" : "christmas/unicWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+"ability2":
+			{
+				"type" : "FEARLESS"
+			}
+		}
+	}
+}

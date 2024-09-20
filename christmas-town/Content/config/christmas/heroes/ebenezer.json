@@ -1,0 +1,68 @@
+{
+	"ebenezer" :
+	{
+		"class" : "christmasspirit",
+
+		"texts" :
+		{
+			"name" : "Ebenezer",
+			"biography" : "Scrooge was a cold-hearted, tight-fisted and greedy man, who despises Christmas and all things which give people happiness. The cold within him froze his old features, nipped his pointed nose, made his eyes red, his thin lips blue, and he spoke out shrewdly in his grating voice. The tale of his redemption by the three Ghosts of Christmas (Ghost of Christmas Past, Ghost of Christmas Present, and Ghost of Christmas Yet to Come) has become a defining tale of the Christmas holiday.",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Волшебство}\r\n\r\n+5% за каждый уровен??показателю навыка волшебства.",
+				"name" : "+350 Gold"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/ebenezer/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/ebenezer/spec-large.png",
+			"large" : "christmas/heroes/ebenezer/portrait-large.png",
+			"small" : "christmas/heroes/ebenezer/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "expert",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

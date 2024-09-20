@@ -1,0 +1,67 @@
+{
+	"frauberta" : 
+	{
+		"class" : "christmasspirit",
+		"female" : true,
+		
+		"texts" :
+		{
+			"name" : "Frau Berta",
+			"biography" : "Berta was once known as a goddess in Southern Germanic paganism in the Alpine countries. Her name means the bright one and is probably related to the name Berchtentag, meaning the feast of the Epiphany.",
+			"specialty" :
+			{
+				"description" : "Increases the scouting range by 1 for every 6 levels of the hero.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/frauberta/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/frauberta/spec-large.png",
+			"large" : "christmas/heroes/frauberta/portrait-large.png",
+			"small" : "christmas/heroes/frauberta/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+                "sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+                    "updater" : {
+                        "parameters" : [6],
+                        "type" : "GROWS_WITH_LEVEL"
+                    }
+				}	
+			}
+		}
+	}
+}

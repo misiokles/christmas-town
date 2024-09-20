@@ -1,0 +1,82 @@
+{
+	"christmasstar":
+	{
+		"name" :
+		{
+			"plural" : "Christmas Stars",
+			"singular" : "Christmas Star"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 6
+		},
+		"faction" : "christmas",
+		"aiValue" : 350,
+		"fightValue" : 350,
+		"attack" : 6,
+		"defense" : 4,
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 6 
+		},
+		"hitPoints" : 30,
+		"speed" : 23,
+		"level" : 4,
+		"cost" :
+		{
+			"gold" : 425
+		},
+		"growth" : 4,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/christmasstar.def",
+			"map" : "christmas/map/achristmasstar.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSchristmasstar.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLchristmasstar.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+        },
+		"sound" :
+		{
+			"attack" : "christmas/lighATTK.wav",
+			"defend" : "christmas/lighDFND.wav",
+			"killed" : "christmas/lighKILL.wav",
+			"move" : "christmas/lighMOVE.wav",
+			"wince" : "christmas/lighWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "NON_LIVING"
+			},
+"ability2":
+			{
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+"ability3":
+			{
+				"type" : "FLYING"
+			},
+"ability4":
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+"ability5":
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 100,
+				"addInfo" : [0, 0]
+			}
+		}
+	}
+}

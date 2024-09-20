@@ -1,0 +1,73 @@
+{
+	"whitedonkey":
+	{
+		"name" :
+		{
+			"plural" : "White Donkeys",
+			"singular" : "White Donkey"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "christmas",
+		"aiValue" : 175,
+		"fightValue" : 175,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" :
+		{
+			"max" : 8,
+			"min" : 6 
+		},
+		"hitPoints" : 40,
+		"speed" : 7,
+		"level" : 3,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 225
+		},
+		"growth" : 8,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/whitedonkey.def",
+			"map" : "christmas/map/awhitedonkey.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSwhitedonkey.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLwhitedonkey.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+		},
+		"sound" :
+		{
+			"attack" : "christmas/unicATTK.wav",
+			"defend" : "christmas/unicDFND.wav",
+			"killed" : "christmas/unicKILL.wav",
+			"move" : "christmas/unicMOVE.wav",
+			"wince" : "christmas/unicWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+"ability2":
+			{
+				"type" : "FEARLESS"
+			},
+"ability3":
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			}
+		}
+	}
+}

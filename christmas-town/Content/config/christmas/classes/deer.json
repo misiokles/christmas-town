@@ -1,0 +1,87 @@
+{
+	"deer" : 
+	{
+		"name" : "Reindeer",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "christmas/battleHeroDeer",
+				"male"   : "christmas/battleHeroDeer"
+			},
+			
+		},
+		"mapObject" : { "templates" : { "default" : { "animation" : "christmas/mapHeroDeer" } } },
+		"affinity": "might",
+		"defaultTavern" : 5,
+		"commander" : "reindeer",
+
+		"faction" : "christmas",
+
+		"primarySkills" :
+		{
+			"attack"     : 0,
+			"defence"    : 2,
+			"spellpower" : 1,
+			"knowledge"  : 3
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 15,
+			"defence"    : 40,
+			"spellpower" : 5,
+			"knowledge"  : 40
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 30,
+			"spellpower" : 15,
+			"knowledge"  : 25
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 10,
+			"archery"      : 5,
+			"logistics"    : 10,
+			"scouting"     : 10,
+			"diplomacy"    : 10,
+			"navigation"   : 7,
+			"leadership"   : 3,
+			"wisdom"       : 5,
+			"mysticism"    : 1,
+			"luck"         : 7,
+			"ballistics"   : 3,
+			"eagleEye"     : 2,
+			"necromancy"   : 0,
+			"estates"      : 4,
+			"fireMagic"    : 0,
+			"airMagic"     : 1,
+			"waterMagic"   : 4,
+			"earthMagic"   : 0,
+			"scholar"      : 1,
+			"tactics"      : 5,
+			"artillery"    : 2,
+			"learning"     : 5,
+			"offence"      : 0,
+			"armorer"      : 4,
+			"intelligence" : 3,
+			"sorcery"      : 2,
+			"resistance"   : 3,
+			"firstAid"     : 5
+		},
+		"tavern" :
+		{
+			"castle"     : 6,
+			"rampart"    : 6,
+			"tower"      : 8,
+			"inferno"    : 3,
+			"necropolis" : 0,
+			"dungeon"    : 3,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 5,
+			"christmas"   : 6                  
+		}
+	}
+}

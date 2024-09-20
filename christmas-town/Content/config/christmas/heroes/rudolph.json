@@ -1,0 +1,62 @@
+{
+	"rudolph" :
+	{
+		"class" : "deer",
+
+		"texts" :
+		{
+			"name" : "Rudolph",
+			"biography" : "Rudolph the Red-Nosed Reindeer is Santa's 9th Reindeer. He is also the lead reindeer pulling Santa's sleigh on Christmas Eve. The luminosity of his nose is so great that it illuminates the team's path through inclement winter weather.",
+			"specialty" :
+			{
+				"description" : "Bonus of Reindeers",
+				"tooltip" : "Увеличение параметров атак??защиты Пирато? Корсаров ?Морски?Волков за каждый уровен? достигнуты?посл?3-го.",
+				"name" : "Reindeers"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/rudolph/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/rudolph/spec-large.png",
+			"large" : "christmas/heroes/rudolph/portrait-large.png",
+			"small" : "christmas/heroes/rudolph/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "reindeer",
+				"max" : 4,
+				"min" : 4
+			},
+			{
+				"creature" : "reindeer",
+				"max" : 4,
+				"min" : 4
+			},
+			{
+				"creature" : "reindeer",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "reindeer"
+		}
+	}
+}
+

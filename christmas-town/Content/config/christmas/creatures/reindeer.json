@@ -1,0 +1,79 @@
+{
+	"reindeer":
+	{
+		"name" :
+		{
+			"plural" : "Reindeers",
+			"singular" : "Reindeer"
+		},
+		"advMapAmount" :
+		{
+			"max" : 14,
+			"min" : 6
+		},
+		"faction" : "christmas",
+		"upgrades":
+		[
+			"santareindeer"
+		],
+		"aiValue" : 300,
+		"fightValue" : 300,
+		"attack" : 12,
+		"defense" : 10,
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 12 
+		},
+		"hitPoints" : 60,
+		"speed" : 8,
+		"level" : 5,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 425
+		},
+		"growth" : 3,
+		"horde" : 2,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/reindeer.def",
+			"map" : "christmas/map/areindeer.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSreindeer.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLreindeer.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+        },
+		"sound" :
+		{
+			"attack" : "christmas/unicATTK.wav",
+			"defend" : "christmas/unicDFND.wav",
+			"killed" : "christmas/unicKILL.wav",
+			"move" : "christmas/unicMOVE.wav",
+			"wince" : "christmas/unicWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "JOUSTING"
+			},
+"ability2":
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+"ability3":
+			{
+				"type" : "CHARGE_IMMUNITY"
+			}
+		}
+	}
+}

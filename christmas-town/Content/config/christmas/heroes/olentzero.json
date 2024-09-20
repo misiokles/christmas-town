@@ -1,0 +1,61 @@
+{
+	"olentzero" :
+	{
+		"class" : "christmasspirit",
+
+		"texts" :
+		{
+			"name" : "Olentzero",
+			"biography" : "Olentzero comes to town late at night on the 24th of December to drop off presents for children.",
+			"specialty" :
+			{
+				"description" : "Bonus of Christmas Lights",
+				"tooltip" : "Увеличение параметров атак??защиты Жриц Мо? ?Заклинательниц за каждый уровен? достигнуты?посл?5-го.",
+				"name" : "Christmas Lights"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/olentzero/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/olentzero/spec-large.png",
+			"large" : "christmas/heroes/olentzero/portrait-large.png",
+			"small" : "christmas/heroes/olentzero/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "christmaslight",
+				"max" : 4,
+				"min" : 2
+			},
+			{
+				"creature" : "christmaslight",
+				"max" : 3,
+				"min" : 1
+			},
+			{
+				"creature" : "christmaslight",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "christmaslight"
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"blackdonkey":
+	{
+		"name" :
+		{
+			"plural" : "Black Donkeys",
+			"singular" : "Black Donkey"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "christmas",
+		"upgrades" :
+		[
+			"whitedonkey"
+		],
+		"aiValue" : 150,
+		"fightValue" : 150,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 5 
+		},
+		"hitPoints" : 35,
+		"speed" : 6,
+		"level" : 3,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 180
+		},
+		"growth" : 8,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/blackdonkey.def",
+			"map" : "christmas/map/ablackdonkey.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSblackdonkey.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLblackdonkey.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+		},
+		"sound" :
+		{
+			"attack" : "christmas/unicATTK.wav",
+			"defend" : "christmas/unicDFND.wav",
+			"killed" : "christmas/unicKILL.wav",
+			"move" : "christmas/unicMOVE.wav",
+			"wince" : "christmas/unicWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+"ability2":
+			{
+				"type" : "FEARLESS"
+			}
+		}
+	}
+}

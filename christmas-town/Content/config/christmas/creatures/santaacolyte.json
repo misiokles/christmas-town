@@ -1,0 +1,98 @@
+{
+	"santaacolyte":
+	{
+		"name" :
+		{
+			"plural" : "Santa Acolytes",
+			"singular" : "Santa Acolyte"
+		},
+		"advMapAmount" :
+		{
+			"max" : 9,
+			"min" : 4
+		},
+		"faction" : "christmas",
+		"upgrades":
+		[
+			"santaclaus"
+		],
+		"aiValue" : 2500,
+		"fightValue" : 2500,
+		"attack" : 23,
+		"defense" : 18,
+		"damage" :
+		{
+			"max" : 45,
+			"min" : 35 
+		},
+		"hitPoints" : 150,
+		"speed" : 8,
+		"shots" : 12,
+		"level" : 7,
+		"cost" :
+		{
+			"gold" : 2500,
+			"gems" : 1
+		},
+		"growth" : 1,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/santaacolyte.def",
+			"map" : "christmas/map/asantaacolyte.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSsantaacolyte.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLsantaacolyte.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			},
+			"missile" :
+			{
+				"projectile" : "christmas/battle/projectile/santashot.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+        },
+		"sound" :
+		{
+			"attack" : "christmas/amagATTK.wav",
+			"defend" : "christmas/amagDFND.wav",
+			"killed" : "christmas/amagKILL.wav",
+			"move" : "christmas/amagMOVE.wav",
+			"shoot" : "christmas/amagSHOT.wav",
+			"wince" : "christmas/amagWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "SHOOTER"
+			},
+"ability2":
+			{
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+"ability3":
+			{
+				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+				"val" : 2
+			},
+"ability4":
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		}
+	}
+}

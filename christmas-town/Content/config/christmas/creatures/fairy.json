@@ -1,0 +1,68 @@
+{
+	"fairy":
+	{
+		"name" :
+		{
+			"plural" : "Fairies",
+			"singular" : "Fairy"
+		},
+		"advMapAmount" :
+		{
+			"max" : 100,
+			"min" : 40
+		},
+		"faction" : "christmas",
+		"upgrades":
+		[
+			"christmasfairy"
+		],
+		"aiValue" : 15,
+		"fightValue" : 17,
+		"attack" : 2,
+		"defense" : 1,
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1 
+		},
+		"hitPoints" : 2,
+		"speed" : 13,
+		"level" : 1,
+		"cost" :
+		{
+			"gold" : 15
+		},
+		"growth" : 40,
+		"horde" : 20,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/fairy.def",
+			"map" : "christmas/map/afairy.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSfairy.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLfairy.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+        },		
+		"sound" :
+		{
+			"attack" : "christmas/sprtATTK.wav",
+			"defend" : "christmas/sprtDFND.wav",
+			"killed" : "christmas/sprtKILL.wav",
+			"move" : "christmas/sprtMOVE.wav",
+			"wince" : "christmas/sprtWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"snowman" :
+	{
+		"name" : "Snowman",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "christmas/battleHeroSnowman",
+				"male"   : "christmas/battleHeroSnowman"
+			},
+		},
+		
+		"mapObject" : { "templates" : { "default" : { "animation" : "christmas/mapHeroSnowman" } } },
+		"affinity": "magic",
+		"defaultTavern" : 5,
+		"commander" : "christmasgremlin",
+		
+		"faction" : "christmas",
+
+		"primarySkills" :
+		{
+			"attack"     : 0,
+			"defence"    : 1,
+			"spellpower" : 2,
+			"knowledge"  : 3
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 10,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 40
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 15,
+			"defence"    : 20,
+			"spellpower" : 20,
+			"knowledge"  : 45
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 4,
+			"archery"      : 5,
+			"logistics"    : 5,
+			"scouting"     : 3,
+			"diplomacy"    : 8,
+			"navigation"   : 0,
+			"leadership"   : 2,
+			"wisdom"       : 8,
+			"mysticism"    : 3,
+			"luck"         : 10,
+			"ballistics"   : 1,
+			"eagleEye"     : 2,
+			"necromancy"   : 0,
+			"estates"      : 2,
+			"fireMagic"    : 5,
+			"airMagic"     : 6,
+			"waterMagic"   : 6,
+			"earthMagic"   : 1,
+			"scholar"      : 5,
+			"tactics"      : 2,
+			"artillery"    : 1,
+			"learning"     : 4,
+			"offence"      : 2,
+			"armorer"      : 3,
+			"intelligence" : 7,
+			"sorcery"      : 6,
+			"resistance"   : 5,
+			"firstAid"     : 7
+		},
+		"tavern" :
+		{
+			"castle"     : 7,
+			"rampart"    : 7,
+			"tower"      : 8,
+			"inferno"    : 3,
+			"necropolis" : 0,
+			"dungeon"    : 3,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 7
+		}
+	}
+}

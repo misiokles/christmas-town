@@ -1,0 +1,59 @@
+{
+	"dominick" :
+	{
+		"class" : "deer",
+		
+		"texts" :
+		{
+			"name" : "Dominick",
+			"biography" : "Dominick is a donkey who helps Santa Claus bring presents to children in Italy because the reindeer cannot climb Italy's hills. When Santa visits his paisons, With Dominick he'll be.",
+			"specialty" :
+			{
+				"description" : "Bonus of Donkeys",
+				"tooltip" : "величение параметров атак??защиты ƒухо?ќкеана ?јссидо?за каждый уровен? достигнуты?посл?4-го.",
+				"name" : "Donkeys"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/dominick/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/dominick/spec-large.png",
+			"large" : "christmas/heroes/dominick/portrait-large.png",
+			"small" : "christmas/heroes/dominick/portrait-small.png",
+		},
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "donkey"
+		}
+	}
+}

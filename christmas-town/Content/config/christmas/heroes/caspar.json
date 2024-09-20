@@ -1,0 +1,57 @@
+{
+	"caspar" : 
+	{
+		"class" : "wiseman",
+
+		"texts" :
+		{
+			"name" : "Caspar",
+			"biography" : "One of the Three Wisemen, the Indian scholar",
+			"specialty" :
+			{
+				"description" : "Starts with advanced Wisdom",
+				"tooltip" : "Starts with advanced Wisdom",
+				"name" : "Wisdom"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/caspar/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/caspar/spec-large.png",
+			"large" : "christmas/heroes/caspar/portrait-large.png",
+			"small" : "christmas/heroes/caspar/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty": {}
+	}
+}
+
+

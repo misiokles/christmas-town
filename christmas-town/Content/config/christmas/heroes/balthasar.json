@@ -1,0 +1,75 @@
+{
+	"balthasar" : 
+	{
+		"class" : "wiseman",
+
+		"texts" :
+		{
+			"name" : "Balthasar",
+			"biography" : "One of the Three Wisemen, the Arabian scholar",
+			"specialty" :
+			{
+				"description" : "Bonus to Mysticism",
+				"tooltip" : "",
+				"name" : "Mysticism"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/balthasar/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/balthasar/spec-large.png",
+			"large" : "christmas/heroes/balthasar/portrait-large.png",
+			"small" : "christmas/heroes/balthasar/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

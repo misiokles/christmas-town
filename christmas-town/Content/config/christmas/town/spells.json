@@ -1,0 +1,85 @@
+{
+	"christmas" :
+	{
+		"town" :
+		{
+			"guildSpells" :
+			{
+				// Level 1
+				"bless"          : 10,
+				"bloodlust"      : 10,
+				"cure"           : 10,
+				"curse"          : 0,
+				"dispel"         : 10,
+				"haste"          : 10,
+				"magicArrow"     : 10,
+				"protectAir"     : 5,
+				"protectFire"    : 3,
+				"shield"         : 10,
+				"slow"           : 10,
+				"stoneSkin"      : 5,
+				"summonBoat"     : 1,
+				"viewAir"        : 3,
+				"viewEarth"      : 3,
+
+				// Level 2
+				"disguise"       : 1,
+				"disruptingRay"  : 1,
+				"fireWall"       : 3,
+				"fortune"        : 30,
+				"iceBolt"        : 30,
+				"lightningBolt"  : 10,
+				"precision"      : 6,
+				"quicksand"      : 4,
+				"removeObstacle" : 6,
+				"scuttleBoat"    : 1,
+				"visions"        : 2,
+				"weakness"       : 6,
+
+				// Level 3
+				"airShield"      : 2,
+				"antiMagic"      : 20,
+				"earthquake"     : 6,
+				"fireball"       : 1,
+				"forceField"     : 9,
+				"forgetfulness"  : 1,
+				"frostRing"      : 30,
+				"hypnotize"      : 2,
+				"landMine"       : 1,
+				"mirth"          : 2,
+				"misfortune"     : 5,
+				"protectEarth"   : 5,
+				"protectWater"   : 10,
+				"teleport"       : 6,
+
+				//Level 4
+				"berserk"        : 1,
+				"chainLightning" : 5,
+				"clone"          : 10,
+				"counterstrike"  : 5,
+				"fireShield"     : 1,
+				"frenzy"         : 1,
+				"inferno"        : 1,
+				"meteorShower"   : 5,
+				"prayer"         : 25,
+				"resurrection"   : 10,
+				"slayer"         : 1,
+				"sorrow"         : 10,
+				"townPortal"     : 20,
+				"waterWalk"      : 5,
+
+				//Level 5
+				"airElemental"   : 2,
+				"dimensionDoor"  : 35,
+				"earthElemental" : 1,
+				"fireElemental"  : 1,
+				"fly"            : 30,
+				"implosion"      : 5,
+				"magicMirror"    : 15,
+				"sacrifice"      : 1,
+				"waterElemental" : 5
+			}
+		}
+	}
+}
+

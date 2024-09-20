@@ -1,0 +1,126 @@
+{
+	"christmas" :
+	{
+		"name" : "Christmas Town",
+		"creatureBackground" :
+		{
+			"120px" : "christmas/creature-bg-120px",
+			"130px" : "christmas/creature-bg-130px"
+		},
+		"nativeTerrain": "snow",
+		"alignment" : "good",
+		"boat" : "boatCastle",
+		"town" :
+		{
+			"tavernVideo" : "tvrnRM.smk",
+			"musicTheme" : "music/factions/christmas",
+			"townBackground": "christmas/town-screen/background",
+			"guildWindow": "christmas/town-screen/mage-guild",
+			"guildBackground" : "TPMAGE.bmp",
+			"hallBackground": "christmas/thback/christmasui.bmp",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "christmasdecoration" ] ],
+				[ [ "hordeSnowfairies" , "hordeSnowfairiesUpgr" ], [ "hordeReindeers", "hordeReindeersUpgr" ] ],
+				[ [ "dwelling1" , "dwellingUpgrade1"  ], [ "dwelling2", "dwellingUpgrade2" ], [ "dwelling3", "dwellingUpgrade3", "donkeys2ndUpgr" ], [ "dwelling4", "dwellingUpgrade4" ] ],
+				[ [ "dwelling5", "dwellingUpgrade5" ], [ "dwelling6"], [ "dwelling7", "dwellingUpgrade7", "santas2ndUpgr" ] ]
+			],
+			"creatures" :
+			[
+				[ "fairy", "christmasfairy" ],
+				[ "christmasgremlin", "truesantagremlin" ],
+				[ "donkey", "blackdonkey", "whitedonkey" ],
+				[ "christmaslight", "christmasstar" ],
+				[ "reindeer", "santareindeer" ],
+				[ "christmastreant" ],
+				[ "santaacolyte", "santaclaus", "mastersanta" ]
+			],
+
+			"names" :
+			[
+				"Rovaniemi",
+				"North Pole",
+				"Christmas Wood",
+				"Sledge",
+				"Bethlehem",
+				"Christmas Stable",
+				"Manger",
+				"Falling Star",
+				"The First Noě",
+				"Jingling Bells",
+				"Mistletoe",
+				"Snegiri",
+				"Santa Home",
+				"North Villa",
+				"Ice Pool",
+				"Presentville"
+
+
+		],
+
+			"moatAbility" : "castleMoat",
+			"horde" : [ 0, 4 ],
+			"mageGuild" : 5,
+			"primaryResource" : "gems",
+			"warMachine" : "firstAidTent",
+			"buildingsIcons" : "christmas/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {"small" : "christmas/icons/hall-small.bmp", "large" : "christmas/icons/hall-big.bmp" },
+					"built"  : {"small" : "christmas/icons/hall-builded-small.bmp", "large" : "christmas/icons/hall-builded-big.bmp" }
+				},
+				"fort" : {
+					"normal" : {"small" : "christmas/icons/fort-small.bmp", "large" : "christmas/icons/fort-big.bmp" },
+					"built"  : {"small" : "christmas/icons/fort-builded-small.bmp", "large" : "christmas/icons/fort-builded-big.bmp" }
+				}
+			},
+			"mapObject" : 
+			{
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "christmas/map/Capitol.def" },
+					"castle" : { "animation" : "christmas/map/Castle.def" },
+					"citadel" : { "animation" : "christmas/map/Castle.def" },
+					"fort" : { "animation" : "christmas/map/Castle.def" },					
+					"village" : { "animation" : "christmas/map/town-village.def" }
+				}
+			},
+		
+			
+			"defaultTavern" : 5,
+
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 6,
+				"druid"        : 6,
+				"alchemist"    : 6,
+				"wizard"       : 6,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 6,
+				"overlord"     : 6,
+				"barbarian"    : 6,
+				"battlemage"   : 6,
+				"beastmaster"  : 6,
+				"witch"        : 6,
+				"planeswalker" : 6,
+				"elementalist" : 6,
+				"yulecat"         : 6,					
+				"snowman"         : 6,					
+				"deer"         : 6,				
+				"christmasspirit" : 6,
+     			"wiseman"     : 6
+			}
+		}
+	}
+}

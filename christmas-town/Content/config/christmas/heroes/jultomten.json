@@ -1,0 +1,54 @@
+{
+	"jultomten" :
+	{
+		"class" : "christmasspirit",
+
+		"texts" :
+		{
+			"name" : "Jultomten",
+			"biography" : "The tomte or nisse was believed to take care of a farmer's home and children and protect them from misfortune, in particular at night, when the housefolk were asleep.",
+			"specialty" :
+			{
+				"description" : "Starts with Advanced Luck",
+				"tooltip" : "{Кольцо Холода}\r\n\r\nИспользует заклинание Кольцо Холода ?улучшенным эффектом, основанным на уровне героя ?сравнени??уровне?цели (бону?выше пр?использовани?на слабых существа?.",
+				"name" : "Luck"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/jultomten/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/jultomten/spec-large.png",
+			"large" : "christmas/heroes/jultomten/portrait-large.png",
+			"small" : "christmas/heroes/jultomten/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+		}
+	}
+}

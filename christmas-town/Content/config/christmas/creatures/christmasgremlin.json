@@ -1,0 +1,67 @@
+{
+	"christmasgremlin":
+	{
+		"name" :
+		{
+			"plural" : "Christmas Gremlins",
+			"singular" : "Christmas Gremlin"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 15
+		},
+		"faction" : "christmas",
+		"upgrades":
+		[
+			"truesantagremlin"
+		],
+		"aiValue" : 75,
+		"fightValue" : 75,
+		"attack" : 4,
+		"defense" : 6,
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3 
+		},
+		"hitPoints" : 12,
+		"speed" : 5,
+		"level" : 2,
+		"cost" :
+		{
+			"gold" : 95
+		},
+		"growth" : 12,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/christmasgremlin.def",
+			"map" : "christmas/map/achristmasgremlin.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSchristmasgremlin.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLchristmasgremlin.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+        },		
+		"sound" :
+		{
+			"attack" : "christmas/agrmATTK.wav",
+			"defend" : "christmas/agrmDFND.wav",
+			"killed" : "christmas/agrmKILL.wav",
+			"move" : "christmas/agrmMOVE.wav",
+			"wince" : "christmas/agrmWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			}
+		}
+	}
+}

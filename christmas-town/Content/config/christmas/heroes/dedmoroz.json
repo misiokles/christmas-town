@@ -1,0 +1,65 @@
+{
+	"dedmoroz" :
+	{
+		"class" : "christmasspirit",
+
+		"texts" :
+		{
+			"name" : "Ded Moroz",
+			"biography" : "Ded Moroz plays a role similar to that of Santa Claus. The literal translation of the name would be Old Man Frost. Ded Moroz is said to bring presents to children, however, unlike the secretive Santa Claus, the gifts are often delivered in person, at New Year's Eve parties and other New Year celebrations.",
+			"specialty" :
+			{
+				"description" : "Bonus of Santas",
+				"tooltip" : "Использует заклинание Воздушны?Щи??улучшенным эффектом, основанным на уровне героя ?сравнени??уровне?цели (бону?выше пр?использовани?на слабых существа?.",
+				"name" : "Santas"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/dedmoroz/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/dedmoroz/spec-large.png",
+			"large" : "christmas/heroes/dedmoroz/portrait-large.png",
+			"small" : "christmas/heroes/dedmoroz/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 12,
+				"min" : 7
+			},
+			{
+				"creature" : "reindeer",
+				"max" : 3,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "expert",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "santaacolyte"
+		}
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"truesantagremlin":
+	{
+		"name" :
+		{
+			"plural" : "True Santa Gremlins",
+			"singular" : "True Santa Gremlin"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 15
+		},
+		"faction" : "christmas",
+		"aiValue" : 125,
+		"fightValue" : 127,
+		"attack" : 4,
+		"defense" : 6,
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3 
+		},
+		"hitPoints" : 12,
+		"speed" : 5,
+		"shots" : 6,
+		"level" : 2,
+		"cost" :
+		{
+			"gold" : 145
+		},
+		"growth" : 12,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/truesantagremlin.def",
+			"map" : "christmas/map/atruesantagremlin.def",
+			"iconSmall" : "christmas/iconsSmall/CPRStruesantagremlin.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLtruesantagremlin.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+				
+			},
+			"missile" :
+			{
+				"projectile" : "christmas/battle/projectile/gremlinshot.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+        },		
+		"sound" :
+		{
+			"attack" : "christmas/agrmATTK.wav",
+			"defend" : "christmas/agrmDFND.wav",
+			"killed" : "christmas/agrmKILL.wav",
+			"move" : "christmas/agrmMOVE.wav",
+			"shoot" : "christmas/agrmshot.wav",
+			"wince" : "christmas/agrmWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+"ability2":
+			{
+				"type" : "SHOOTER"
+			},
+"ability3":
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 100
+			}
+		}
+	}
+}

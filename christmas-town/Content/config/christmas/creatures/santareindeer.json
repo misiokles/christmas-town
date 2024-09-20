@@ -1,0 +1,85 @@
+{
+	"santareindeer":
+	{
+		"name" :
+		{
+			"plural" : "Santa Reindeers",
+			"singular" : "Santa Reindeer"
+		},
+		"advMapAmount" :
+		{
+			"max" : 14,
+			"min" : 6
+		},
+		"faction" : "christmas",
+		"aiValue" : 400,
+		"fightValue" : 400,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 12 
+		},
+		"hitPoints" : 70,
+		"speed" : 10,
+		"level" : 5,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 555
+		},
+		"growth" : 3,
+		"horde" : 2,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/santareindeer.def",
+			"map" : "christmas/map/asantareindeer.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSsantareindeer.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLsantareindeer.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+        },
+		"sound" :
+		{
+			"attack" : "christmas/unicATTK.wav",
+			"defend" : "christmas/unicDFND.wav",
+			"killed" : "christmas/unicKILL.wav",
+			"move" : "christmas/unicMOVE.wav",
+			"wince" : "christmas/unicWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "JOUSTING"
+			},
+"ability2":
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+"ability3":
+			{
+				"type" : "CHARGE_IMMUNITY"
+			},
+"ability4":
+			{
+				"type" : "FLYING"
+			},
+"ability5":
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		}
+	}
+}

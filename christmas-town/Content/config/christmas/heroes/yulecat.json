@@ -1,0 +1,74 @@
+{
+	"yulecat" :
+	{
+		"class" : "yulecat",
+
+		"texts" :
+		{
+			"name" : "Yule Cat",
+			"biography" : "The Yule Cat is a monster from Icelandic folklore, a huge and vicious cat said to lurk about the snowy countryside during Christmas time and eat people who have not received any new clothes to wear before Christmas Eve.",
+			"specialty" :
+			{
+				"description" : "Bonus of Offense",
+				"tooltip" : "Использует заклинание Кольцо Холода ?улучшенным эффектом, основанным на уровне героя ?сравнени??уровне?цели (бону?выше пр?использовани?на слабых существа?.",
+				"name" : "Offense"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/yulecat/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/yulecat/spec-large.png",
+			"large" : "christmas/heroes/yulecat/portrait-large.png",
+			"small" : "christmas/heroes/yulecat/portrait-small.png",
+		},
+		
+		"spellbook" :
+		[
+			"bloodlust"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}

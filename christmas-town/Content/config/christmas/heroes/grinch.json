@@ -1,0 +1,62 @@
+{
+	"grinch" :
+	{
+		"class" : "christmasspirit",
+
+		"texts" :
+		{
+			"name" : "Grinch",
+			"biography" : "The Grinch is devious, anti-holiday creature.",
+			"specialty" :
+			{
+				"description" : "Bonus for True Santa Gremlins",
+				"tooltip" : "{ лон}\r\n\r\nѕервый  лон за битв?стои?двойну?цену ?имее?тройно?эффект.",
+				"name" : "True Santa Gremlins"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/grinch/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/grinch/spec-large.png",
+			"large" : "christmas/heroes/grinch/portrait-large.png",
+			"small" : "christmas/heroes/grinch/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "christmasgremlin",
+				"max" : 12,
+				"min" : 8
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 6
+			},
+			{
+				"creature" : "truesantagremlin",
+				"max" : 12,
+				"min" : 8
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "christmasgremlin"
+		}
+	}
+}
+

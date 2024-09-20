@@ -1,0 +1,62 @@
+{
+	"snegurochka" :
+	{
+		"class" : "christmasspirit",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Snegurochka",
+			"biography" : "Snegurochka, or The Snow Maiden, is the granddaughter and helper of Ded Moroz during the New Year parties for children.",
+			"specialty" :
+			{
+				"description" : "Bonus for Snow Fairies",
+				"tooltip" : "{ ристаллы}\r\n\r\n+1 кристалл каждый день",
+				"name" : "Snow Fairies"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/snegurochka/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/snegurochka/spec-large.png",
+			"large" : "christmas/heroes/snegurochka/portrait-large.png",
+			"small" : "christmas/heroes/snegurochka/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "fairy",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "christmasfairy",
+				"max" : 17,
+				"min" : 10
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "fairy"
+		}
+	}
+}

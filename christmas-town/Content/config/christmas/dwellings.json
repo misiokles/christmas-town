@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"dwelling1" : {
+				"name" : "Christmas Lantern",
+				"creatures" : [[ "fairy" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "christmas/map/dwelling-1.def",
+						"mask" : [ "VVV", "BBB", "BAB" ],
+					}
+				}
+			},
+			"dwelling2" : {
+				"name" : "Snowman",
+				"creatures" : [[ "christmasgremlin" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "christmas/map/dwelling-2.def",
+						"mask" : [ "VVV", "BBB", "BAB" ],
+
+					}
+				}
+			},
+			"dwelling3" : {
+				"name" : "Shed",
+				"creatures" : [[ "donkey" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "christmas/map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "BAB" ],
+					}
+				}
+			},
+			"dwelling4" : {
+				"name" : "Star of Bethlehem",
+				"creatures" : [[ "christmaslight" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "christmas/map/dwelling-4.def",
+						"mask" : [ "VVV", "VVV", "BAB" ],
+					}
+				}
+			},
+			"dwelling5" : {
+				"name" : "Reindeer Team",
+				"creatures" : [[ "reindeer" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "christmas/map/dwelling-5.def",
+						"mask" : [ "VVV", "VVV", "BAB" ],
+					}
+				}
+			},
+			"dwelling6" : {
+				"name" : "Christmas Tree",
+				"creatures" : [[ "christmastreant" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "christmas/map/dwelling-6.def",
+						"mask" : [ "VVV", "VVV", "BAB" ],
+					}
+				}
+			},
+			"dwelling7" : {
+				"name" : "Santa's Sleigh",
+				"creatures" : [[ "santaacolyte" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "christmas/map/dwelling-7.def",
+						"mask" : [ "VVV", "VVV", "BAB" ],
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"melchior" :
+	{
+		"class" : "wiseman",
+
+		"texts" :
+		{
+			"name" : "Melchior",
+			"biography" : "One of Three Wisemen, a Persian scholar",
+			"specialty" :
+			{
+				"description" : "Bonus to Intelligence",
+				"tooltip" : "{Разведка}\r\n\r\n+3 ?дальност?обзора.",
+				"name" : "Intelligence"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/melchior/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/melchior/spec-large.png",
+			"large" : "christmas/heroes/melchior/portrait-large.png",
+			"small" : "christmas/heroes/melchior/portrait-small.png",
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"intelligence" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+

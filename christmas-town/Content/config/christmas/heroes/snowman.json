@@ -1,0 +1,74 @@
+{
+	"snowman" :
+	{
+		"class" : "snowman",
+
+		"texts" :
+		{
+			"name" : "Frosty",
+			"biography" : "Frosty the Snowman, is a fairytale, they say. He was made of snow, but the children know that he came to life one day. There must have been some magic in that old silk hat they found, For when they placed it on his head, he began to dance around!",
+			"specialty" :
+			{
+				"description" : "Bonus to Ice Bolt",
+				"tooltip" : "{ѕушка}\r\n\r\n”величение параметров атак??защиты ѕушк?за каждый уровен? достигнуты?посл?5-го.",
+				"name" : "Ice Bolt"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/snowman/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/snowman/spec-large.png",
+			"large" : "christmas/heroes/snowman/portrait-large.png",
+			"small" : "christmas/heroes/snowman/portrait-small.png",
+		},
+
+		"spellbook" :
+		[
+			"frostRing",
+			"iceBolt"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

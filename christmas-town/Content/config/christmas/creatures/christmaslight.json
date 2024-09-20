@@ -1,0 +1,75 @@
+{
+	"christmaslight":
+	{
+		"name" :
+		{
+			"plural" : "Christmas Lights",
+			"singular" : "Christmas Light"
+		},
+		"advMapAmount" :
+		{
+			"max" : 18,
+			"min" : 8
+		},
+		"faction" : "christmas",
+		"upgrades":
+		[
+			"christmasstar"
+		],
+		"aiValue" : 220,
+		"fightValue" : 220,
+		"attack" : 6,
+		"defense" : 4,
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 6 
+		},
+		"hitPoints" : 30,
+		"speed" : 19,
+		"level" : 4,
+		"cost" :
+		{
+			"gold" : 275
+		},
+		"growth" : 4,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/christmaslight.def",
+			"map" : "christmas/map/achristmaslight.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSchristmaslight.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLchristmaslight.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			}
+        },
+		"sound" :
+		{
+			"attack" : "christmas/lighATTK.wav",
+			"defend" : "christmas/lighDFND.wav",
+			"killed" : "christmas/lighKILL.wav",
+			"move" : "christmas/lighMOVE.wav",
+			"wince" : "christmas/lighWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "NON_LIVING"
+			},
+"ability2":
+			{
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+"ability3":
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

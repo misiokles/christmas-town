@@ -1,0 +1,110 @@
+{
+	"christmastreant":
+	{
+		"name" :
+		{
+			"plural" : "Christmas Treants",
+			"singular" : "Christmas Treant"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "christmas",
+		"aiValue" : 1250,
+		"fightValue" : 1250,
+		"attack" : 18,
+		"defense" : 26,
+		"damage" :
+		{
+			"max" : 26,
+			"min" : 18 
+		},
+		"hitPoints" : 140,
+		"speed" : 6,
+		"shots" : 16,
+		"level" : 6,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 1500,
+			"wood" : 1
+		},
+		"growth" : 2,
+		"graphics" :
+		{
+			"animation" : "christmas/battle/christmastreant.def",
+			"map" : "christmas/map/achristmastreant.def",
+			"iconSmall" : "christmas/iconsSmall/CPRSchristmastreant.bmp",
+			"iconLarge" : "christmas/iconsBig/CPrLchristmastreant.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10.00
+			},
+			"missile" :
+			{
+				"projectile" : "christmas/battle/projectile/treantshot.DEF",
+				
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+        },
+		"sound" :
+		{
+			"attack" : "christmas/treeATTK.wav",
+			"defend" : "christmas/treeDFND.wav",
+			"killed" : "christmas/treeKILL.wav",
+			"move" : "christmas/treeMOVE.wav",
+			"shoot" : "christmas/treeSHOT.wav",
+			"wince" : "christmas/treeWNCE.wav"
+		},
+		
+		"abilities" :
+		{
+"ability1":
+			{
+				"type" : "SHOOTER"
+			},
+"ability2":
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 20
+			},
+"ability3":
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 100
+			},
+"ability4":
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 50
+			},
+"ability5":
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+"ability6":
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispel", 
+				"val":10,
+				"addInfo": [0, 0]
+			}
+		}
+	}
+}

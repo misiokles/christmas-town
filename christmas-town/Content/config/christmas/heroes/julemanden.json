@@ -1,0 +1,74 @@
+{
+	"julemanden" :
+	{
+		"class" : "christmasspirit",
+
+		"texts" :
+		{
+			"name" : "Julemanden",
+			"biography" : "Julemanden can be directly translated to The Yule-Man or The Christmas-man. Julemanden is a mythical character who is said to bring Christmas presents to children in Denmark on Christmas Eve. The main differences to Father Christmas is that Julemanden lives in Greenland, loves risengrod which is rice pudding with cinnamon-sugar, and a slice of butter on top, and is assisted by nisse which are the Danish version of elves.",
+			"specialty" :
+			{
+				"description" : "Bonus of First Aid",
+				"tooltip" : "{Кольцо Холода}\r\n\r\nИспользует заклинание Кольцо Холода ?улучшенным эффектом, основанным на уровне героя ?сравнени??уровне?цели (бону?выше пр?использовани?на слабых существа?.",
+				"name" : "First Aid"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "christmas/heroes/julemanden/spec-small.png",
+			"specialtyLarge" : "christmas/heroes/julemanden/spec-large.png",
+			"large" : "christmas/heroes/julemanden/portrait-large.png",
+			"small" : "christmas/heroes/julemanden/portrait-small.png",
+		},
+		
+		"spellbook" :
+		[
+			"cure"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "fairy",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "christmasgremlin",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "donkey",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "spell.firstAid",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}

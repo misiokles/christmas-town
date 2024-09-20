@@ -1,0 +1,356 @@
+{
+	"christmas" :
+	{
+		"town" :
+		{
+			"structures" : {
+			    "mageGuild1" :
+				{
+					"animation" : "christmas/town-screen/buildings/mg1.def",
+					"area" : "christmas/town-screen/buildings-area/mg1a.bmp",
+					"border" : "christmas/town-screen/buildings-border/mg1b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild2" :
+				{
+					"animation" : "christmas/town-screen/buildings/mg2.def",
+					"area" : "christmas/town-screen/buildings-area/mg2a.bmp",
+					"border" : "christmas/town-screen/buildings-border/mg2b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild3" :
+				{
+					"animation" : "christmas/town-screen/buildings/mg3.def",
+					"area" : "christmas/town-screen/buildings-area/mg3a.bmp",
+					"border" : "christmas/town-screen/buildings-border/mg3b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild4" :
+				{
+					"animation" : "christmas/town-screen/buildings/mg4.def",
+					"area" : "christmas/town-screen/buildings-area/mg4a.bmp",
+					"border" : "christmas/town-screen/buildings-border/mg4b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild5" :
+				{
+					"animation" : "christmas/town-screen/buildings/mg5.def",
+					"area" : "christmas/town-screen/buildings-area/mg5a.bmp",
+					"border" : "christmas/town-screen/buildings-border/mg5b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"tavern" :
+				{
+					"animation" : "christmas/town-screen/buildings/tavern.def",
+					"area" : "christmas/town-screen/buildings-area/taverna.bmp",
+					"border" : "christmas/town-screen/buildings-border/tavernb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"fort" :
+				{
+					"animation" : "christmas/town-screen/buildings/fort.def",
+					"area" : "christmas/town-screen/buildings-area/forta.bmp",
+					"border" : "christmas/town-screen/buildings-border/fortb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"citadel" :
+				{
+					"animation" : "christmas/town-screen/buildings/citadel.def",
+					"area" : "christmas/town-screen/buildings-area/citadela.bmp",
+					"border" : "christmas/town-screen/buildings-border/citadelb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"castle" :
+				{
+					"animation" : "christmas/town-screen/buildings/castle.def",
+					"area" : "christmas/town-screen/buildings-area/castlea.bmp",
+					"border" : "christmas/town-screen/buildings-border/castleb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"villageHall" :
+				{
+					"animation" : "christmas/town-screen/buildings/hall1.def",
+					"area" : "christmas/town-screen/buildings-area/hall1a.bmp",
+					"border" : "christmas/town-screen/buildings-border/hall1b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"townHall" :
+				{
+					"animation" : "christmas/town-screen/buildings/hall2.def",
+					"area" : "christmas/town-screen/buildings-area/hall2a.bmp",
+					"border" : "christmas/town-screen/buildings-border/hall2b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"cityHall" :
+				{
+					"animation" : "christmas/town-screen/buildings/hall3.def",
+					"area" : "christmas/town-screen/buildings-area/hall3a.bmp",
+					"border" : "christmas/town-screen/buildings-border/hall3b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"capitol" :
+				{
+					"animation" : "christmas/town-screen/buildings/hall4.def",
+					"area" : "christmas/town-screen/buildings-area/hall4a.bmp",
+					"border" : "christmas/town-screen/buildings-border/hall4b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"marketplace" :
+				{
+					"animation" : "christmas/town-screen/buildings/market.def",
+					"area" : "christmas/town-screen/buildings-area/marketa.bmp",
+					"border" : "christmas/town-screen/buildings-border/marketb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"resourceSilo" :
+				{
+					"animation" : "christmas/town-screen/buildings/silo.def",
+					"area" : "christmas/town-screen/buildings-area/siloa.bmp",
+					"border" : "christmas/town-screen/buildings-border/silob.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"blacksmith" :
+				{
+					"animation" : "christmas/town-screen/buildings/black.def",
+					"area" : "christmas/town-screen/buildings-area/blacka.bmp",
+					"border" : "christmas/town-screen/buildings-border/blackb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"hordeSnowfairies" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell1.def",
+					"area" : "christmas/town-screen/buildings-area/dwell1a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell1b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"hidden" : true					
+				},
+				"hordeSnowfairiesUpgr" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg1.def",
+					"area" : "christmas/town-screen/buildings-area/dwell1a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell1b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"hidden" : true					
+				},
+				"christmasdecoration" :
+				{
+					"animation" : "christmas/town-screen/buildings/spec.def",
+					"area" : "christmas/town-screen/buildings-area/speca.bmp",
+					"border" : "christmas/town-screen/buildings-border/specb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"hordeReindeers" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg5.def",
+					"area" : "christmas/town-screen/buildings-area/upg5a.bmp",
+					"border" : "christmas/town-screen/buildings-border/upg5b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"hidden" : true					
+				},
+				"hordeReindeersUpgr" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg5horde.def",
+					"area" : "christmas/town-screen/buildings-area/upg5hordea.bmp",
+					"border" : "christmas/town-screen/buildings-border/upg5hordeb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"grail" :
+				{
+					"animation" : "christmas/town-screen/buildings/grail.def",
+					"area" : "christmas/town-screen/buildings-area/graila.bmp",
+					"border" : "christmas/town-screen/buildings-border/grailb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwelling1" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell1.def",
+					"area" : "christmas/town-screen/buildings-area/dwell1a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell1b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwelling2" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell2.def",
+					"area" : "christmas/town-screen/buildings-area/dwell2a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell2b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwelling3" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell3.def",
+					"area" : "christmas/town-screen/buildings-area/dwell3a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell3b.bmp",
+				    "x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwelling4" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell4.def",
+					"area" : "christmas/town-screen/buildings-area/dwell4a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell4b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwelling5" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell5.def",
+					"area" : "christmas/town-screen/buildings-area/dwell5a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell5b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwelling6" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell6.def",
+					"area" : "christmas/town-screen/buildings-area/dwell6a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell6b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwelling7" :
+				{
+					"animation" : "christmas/town-screen/buildings/dwell7.def",
+					"area" : "christmas/town-screen/buildings-area/dwell7a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell7b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwellingUpgrade1" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg1.def",
+					"area" : "christmas/town-screen/buildings-area/dwell1a.bmp",
+					"border" : "christmas/town-screen/buildings-border/dwell1b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwellingUpgrade2" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg2.def",
+					"area" : "christmas/town-screen/buildings-area/upg2a.bmp",
+					"border" : "christmas/town-screen/buildings-border/upg2b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwellingUpgrade3" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg3.def",
+					"area" : "christmas/town-screen/buildings-area/upg3a.bmp",
+					"border" : "christmas/town-screen/buildings-border/upg3b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade4" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg4.def",
+					"area" : "christmas/town-screen/buildings-area/upg4a.bmp",
+					"border" : "christmas/town-screen/buildings-border/upg4b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwellingUpgrade5" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg5.def",
+					"area" : "christmas/town-screen/buildings-area/upg5a.bmp",
+					"border" : "christmas/town-screen/buildings-border/upg5b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				//"dwellingUpgrade6" :
+				//{
+				//	"animation" : "christmas/town-screen/buildings/dwell6.def",
+				//	"area" : "christmas/town-screen/buildings-area/dwell6a.bmp",
+				//	"border" : "christmas/town-screen/buildings-border/dwell6b.bmp",
+				//	"x" : 0,
+				//	"y" : 0,
+				//	"z" : 0
+				//},
+
+				"dwellingUpgrade7" :
+				{
+					"animation" : "christmas/town-screen/buildings/upg7.def",
+					"area" : "christmas/town-screen/buildings-area/upg7a.bmp",
+					"border" : "christmas/town-screen/buildings-border/upg7b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"donkeys2ndUpgr" :
+				{
+					"animation" : "christmas/town-screen/buildings/2upg3.def",
+					"area" : "christmas/town-screen/buildings-area/2upg3a.bmp",
+					"border" : "christmas/town-screen/buildings-border/2upg3b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"santas2ndUpgr" :
+				{
+					"animation" : "christmas/town-screen/buildings/2upg7.def",
+					"area" : "christmas/town-screen/buildings-area/2upg7a.bmp",
+					"border" : "christmas/town-screen/buildings-border/2upg7b.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				}
+			}
+		}
+	}
+}
